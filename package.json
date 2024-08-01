@@ -1,0 +1,24 @@
+{
+  "name": "transfer-buckets",
+  "version": "1.0.0",
+  "description": "Configuração das credenciais para rodar local -> https://cloud.google.com/docs/authentication/provide-credentials-adc?hl=pt-br",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "approach-1": "node src/approach-1/main.js",
+    "approach-2": "node src/approach-2/main.js",
+    "test": "mocha test/test-suite.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.12.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.0",
+    "sinon": "^18.0.0",
+    "sinon-chai": "^4.0.0"
+  }
+}
